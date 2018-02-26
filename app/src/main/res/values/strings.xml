@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Lab_01</string>
+    <string-array name="names" >
+        <item>Pacific Standar Time GMT8</item>
+        <item>Pacific Standar Time GMT19</item>
+
+    </string-array>
+    <string-array name="fecha" >
+        <item>Martes,Feb 10 2018</item>
+        <item>Martes,Feb 18 2018</item>
+
+    </string-array>
+    <string-array name="hora" >
+        <item>4:30 PM</item>
+        <item>8:30 PM</item>
+
+    </string-array>
+
+    <string-array name="correo" >
+        <item>liset.cayhualla@tecsup.edu.pe</item>
+        <item>liset.amaro57@gmail.com</item>
+
+    </string-array>
+</resources>
