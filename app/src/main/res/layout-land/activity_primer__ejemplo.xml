@@ -253,64 +253,6 @@
                 android:layout_height="match_parent">
 
                 <LinearLayout
-                    android:id="@+id/linearLayout5"
-                    android:layout_width="161dp"
-                    android:layout_height="200dp"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginTop="16dp"
-                    android:background="@android:color/background_light"
-                    android:orientation="vertical"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
-
-                    <ImageView
-                        android:id="@+id/imageView10"
-                        android:layout_width="match_parent"
-                        android:layout_height="150dp"
-                        android:scaleType="fitXY"
-                        app:srcCompat="@drawable/pablo" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:orientation="horizontal">
-
-                        <LinearLayout
-                            android:layout_width="115dp"
-                            android:layout_height="50dp"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:id="@+id/textView38"
-                                android:layout_width="match_parent"
-                                android:layout_height="25dp"
-                                android:layout_marginLeft="10dp"
-                                android:layout_weight="1"
-                                android:text="Pablo Alboran"
-                                android:textSize="18dp" />
-
-                            <TextView
-                                android:id="@+id/textView19"
-                                android:layout_width="match_parent"
-                                android:layout_height="25dp"
-                                android:layout_marginLeft="10dp"
-                                android:layout_weight="1"
-                                android:text="08 songs"
-                                android:textSize="12dp" />
-                        </LinearLayout>
-
-                        <ImageView
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_margin="8dp"
-                            app:srcCompat="@drawable/vertical" />
-
-
-                    </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
                     android:id="@+id/linearLayout6"
                     android:layout_width="161dp"
                     android:layout_height="200dp"
@@ -423,6 +365,68 @@
                             android:layout_height="30dp"
                             android:layout_margin="8dp"
                             app:srcCompat="@drawable/vertical" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout5"
+                    android:layout_width="161dp"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@android:color/background_light"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/linearLayout6"
+                    app:layout_constraintStart_toEndOf="@+id/linearLayout8"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/pablo" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="115dp"
+                            android:layout_height="50dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView38"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"
+                                android:text="Pablo Alboran"
+                                android:textSize="18dp" />
+
+                            <TextView
+                                android:id="@+id/textView19"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"
+                                android:text="08 songs"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_margin="8dp"
+                            app:srcCompat="@drawable/vertical" />
+
+
                     </LinearLayout>
                 </LinearLayout>
             </android.support.constraint.ConstraintLayout>
